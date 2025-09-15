@@ -60,13 +60,17 @@ header p {
     color: var(--soft-white);
 }
 
+/*NAVIGATION BAR */
 header nav {
     background-color: var(--champagne-gold);
+    width: 100%;
+}
+
+header nav .nav-container {
+    max-width: 800px;
     display: flex;
     justify-content: space-around;
-    gap: 50px;
     padding: 15px 0;
-    max-width: 800px;
     margin: 0 auto;
 }
 
