@@ -63,8 +63,7 @@ header nav {
     background-color: var(--champagne-gold);
     display: flex;
     justify-content: center;
-    gap: 50px;
-    padding: 10px 0;
+    gap: 200px;
 }
 
 header nav a {
