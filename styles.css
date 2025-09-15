@@ -37,7 +37,6 @@ header {
     background-color: var(--midnight-blue);
     color: var(--soft-white);
     text-align: center;
-    padding-bottom: 20px;
 }
 
 header .logo {
@@ -69,7 +68,7 @@ header nav {
 header nav .nav-container {
     max-width: 900px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 15px 0;
     margin: 0 auto;
