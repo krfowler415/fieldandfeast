@@ -29,5 +29,48 @@ body {
     color: var(--dark-charcoal);
     line-height: 1.6;
     font-size: 16px;
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    padding: 30px 0;
+    text-align: center;
+}
+
+header .logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    color: var(--soft-white);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    padding: 5px 10px;
+}
+
+header nav a:hover {
+    background-color: var(--champagne-gold);
+    border-radius: 5px;
 }
 
