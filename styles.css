@@ -54,14 +54,14 @@ header h1 {
 header p {
     font-size: 1em;
     font-style: italic;
-    margin: 0 0 0;
+    margin: 10px;
     color: var(--soft-white);
 }
 
 header nav {
     background-color: var(--champagne-gold);
     display: flex;
-    justify-content: space-between;
+    justify-content: center space-between;
 }
 
 header nav a {
