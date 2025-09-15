@@ -22,3 +22,12 @@
     --font-main: 'Playfair Display', serif;
 }
 
+/* GLOBAL STYLES (mobile first/small) */
+body {
+    font-family: var(--font-main);
+    background-color: var(--linen);
+    color: var(--dark-charcoal);
+    line-height: 1.6;
+    font-size: 16px;
+}
+
