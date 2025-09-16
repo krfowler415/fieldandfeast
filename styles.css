@@ -75,7 +75,7 @@ header nav .nav-container {
 header nav a {
     color: var(--midnight-blue);
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold
 }
 
@@ -84,3 +84,51 @@ header nav a:hover {
 }
 
 /* ABOUT SECTION  */
+section {
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+section h2 {
+    color: var(--midnight-blue);
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* OFFERINGS SECTION */
+.offerings-container {
+    display: grid;
+    gap: 30px;
+}
+
+.offering h3 {
+    color: var(--olive-green);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* GALLERY SECTION */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display:block;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: var(--dark-charcoal);
+}
+
