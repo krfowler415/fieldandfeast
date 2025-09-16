@@ -29,7 +29,7 @@ body {
     color: var(--dark-charcoal);
     line-height: 1.6;
     font-size: 16px;
-    margin: 0;
+    margin: 10px auto 5px auto;
 }
 
 /* HEADER */
@@ -41,12 +41,12 @@ header {
 
 header .logo {
     width: 150px;
-    margin: 20px 0 10px 0;
+    margin: 20px auto 10px auto;
     display: block;
 }
 
 header h1 {
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: 10px;
     font-weight: bold;
     color: var(--soft-white);
@@ -117,21 +117,28 @@ header nav a:hover {
     text-align: left;
 }
 
+.offering p {
+    color: var(--linen);
+    font-size: 1em;
+    text-align: left;
+}
+
 /* GALLERY SECTION */
 .gallery-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr;
     gap: 20px;
 }
 
 .gallery-item {
-    text-align: center;
+    background: var(--soft-white);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .gallery-item img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
     display:block;
 }
 
