@@ -41,7 +41,7 @@ header {
 
 header .logo {
     width: 150px;
-    margin: 20px auto 10px auto;
+    margin: 20px 0 10px 0;
     display: block;
 }
 
@@ -84,28 +84,37 @@ header nav a:hover {
 }
 
 /* ABOUT SECTION  */
-section {
-    padding: 40px 20px;
+.about {
+    padding: 10px 10px;
     margin: 0 auto;
 }
 
-section h2 {
+.about h2 {
     color: var(--midnight-blue);
     font-size: 2em;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 /* OFFERINGS SECTION */
 .offerings-container {
     display: grid;
+    grid-template-columns: 1fr;
     gap: 30px;
 }
 
+.offering {
+    background: var(--olive-green);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
 .offering h3 {
-    color: var(--olive-green);
+    color: var(--linen);
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin: 5px 0 10px 0;
+    text-align: left;
 }
 
 /* GALLERY SECTION */
