@@ -29,7 +29,8 @@ body {
     color: var(--dark-charcoal);
     line-height: 1.6;
     font-size: 16px;
-    margin: 10px auto 5px auto;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 /* HEADER */
