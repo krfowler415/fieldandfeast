@@ -172,7 +172,7 @@ button {
     display: block;
     align-items: center;
     width: 100%;
-    margin: 20px;
+    margin: 20px auto;
     padding: 10px 20px;
     background-color: var(--olive-green);
     color: var(--linen);
