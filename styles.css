@@ -169,5 +169,6 @@ button {
     border: none;
     border-radius: 10px;
     font-size: 1em;
+    font-style: bold;
     cursor: pointer;
 }
