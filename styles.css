@@ -170,6 +170,7 @@ header nav a:hover {
 /* BUTTON */
 button {
     display: block;
+    align-items: center;
     width: 100%;
     margin: 20px;
     padding: 10px 20px;
