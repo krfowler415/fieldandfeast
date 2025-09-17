@@ -183,6 +183,13 @@ footer {
     font-weight: bold;
 }
 
+footer address {
+    color: var(--soft-white);
+    text-align: center;
+    padding: 20px 10px;
+    font-weight: bold;
+}
+
 footer a {
     color: var(--champagne-gold);
     text-decoration: none;
