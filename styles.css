@@ -168,7 +168,8 @@ button {
     color: var(--linen);
     border: none;
     border-radius: 10px;
+    font-family: var(--font-main);
     font-size: 1em;
-    font-style: bold;
+    font-weight: bold;
     cursor: pointer;
 }
