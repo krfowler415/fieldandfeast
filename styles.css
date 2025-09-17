@@ -194,3 +194,8 @@ footer a {
     font-weight: bold;
     text-align: center;
 }
+
+.social-media {
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
