@@ -162,7 +162,7 @@ header nav a:hover {
 button {
     display: block;
     width: 100%;
-    margin: 20px auto;
+    margin: 20px;
     padding: 10px 20px;
     background-color: var(--olive-green);
     color: var(--linen);
@@ -172,4 +172,19 @@ button {
     font-size: 1em;
     font-weight: bold;
     cursor: pointer;
+}
+
+/*FOOTER */
+footer {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+    padding: 20px 10px;
+    font-weight: bold;
+}
+
+footer a {
+    color: var(--champagne-gold);
+    text-decoration: none;
+    font-weight: bold;
 }
