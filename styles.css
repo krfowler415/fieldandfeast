@@ -177,21 +177,20 @@ button {
 /*FOOTER */
 footer {
     background-color: var(--midnight-blue);
-    color: var(--soft-white);
-    text-align: center;
-    padding: 20px 10px;
-    font-weight: bold;
+    margin-top: 30px;
 }
 
 footer address {
     color: var(--soft-white);
     text-align: center;
-    padding: 20px 10px;
+    padding: 20px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 footer a {
     color: var(--champagne-gold);
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
 }
