@@ -117,6 +117,7 @@ header nav a:hover {
     padding: 20px;
     border-radius: 10px;
     text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .offering h3 {
@@ -127,6 +128,12 @@ header nav a:hover {
 }
 
 .offering p {
+    color: var(--linen);
+    font-size: 1em;
+    text-align: left;
+}
+
+.offering ul {
     color: var(--linen);
     font-size: 1em;
     text-align: left;
@@ -143,6 +150,7 @@ header nav a:hover {
     background: var(--soft-white);
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .gallery-item img {
@@ -159,6 +167,7 @@ header nav a:hover {
     font-style: italic;
 }
 
+/* BUTTON */
 button {
     display: block;
     width: 100%;
@@ -183,8 +192,9 @@ footer {
 footer address {
     color: var(--soft-white);
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     font-weight: bold;
+    font-style: normal;
     text-decoration: none;
 }
 
@@ -193,9 +203,12 @@ footer a {
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+
 }
 
 .social-media {
-    margin: 10px;
+    padding-bottom: 20px;
     text-align: center;
 }
+
+/*END*/
