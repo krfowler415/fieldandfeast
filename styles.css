@@ -42,8 +42,8 @@ header {
 
 header .logo {
     width: 150px;
-    margin: 20px auto 10px auto;
     display: block;
+    margin: 20px auto 10px auto;
 }
 
 header h1 {
@@ -82,6 +82,14 @@ header nav a {
 
 header nav a:hover {
     text-decoration: underline;
+}
+
+/* DIVIDER */
+.divider {
+    width: 100% auto;
+    height: 2px;
+    background-color: var(--champagne-gold);
+    margin: 20px 20px;
 }
 
 /* ABOUT SECTION  */
@@ -147,5 +155,6 @@ header nav a:hover {
     margin-top: 10px;
     font-size: 1em;
     color: var(--dark-charcoal);
+    text-align: center;
 }
 
