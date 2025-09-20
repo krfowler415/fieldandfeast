@@ -62,7 +62,7 @@ header .logo {
 header h1 {
     font-size: 3em;
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 700;
     color: var(--soft-white);
 }
 
@@ -90,7 +90,7 @@ header nav a {
     color: var(--midnight-blue);
     text-decoration: none;
     font-size: 1em;
-    font-weight: bold
+    font-weight: 700;
 }
 
 header nav a:hover {
@@ -106,7 +106,7 @@ header nav a:hover {
 .about h2 {
     color: var(--midnight-blue);
     font-size: 2em;
-    font-weight: thin;
+    font-weight: 400;
     padding-bottom: 10px;
     text-align: left;
 }
@@ -129,7 +129,7 @@ header nav a:hover {
 .offering h2 {
     color: var(--midnight-blue);
     font-size: 2em;
-    font-weight: thin;
+    font-weight: 400;
     padding-bottom: 10px;
     text-align: left;
 }
@@ -165,7 +165,7 @@ header nav a:hover {
 .gallery-container h2 {
     color: var(--midnight-blue);
     font-size: 2em;
-    font-weight: thin;
+    font-weight: 400;
     padding-bottom: 10px;
     text-align: left;
 }
@@ -183,7 +183,7 @@ header nav a:hover {
 }
 
 .gallery-item p {
-    margin-top: 10px;
+    margin: 10px auto 10px auto;
     font-size: 1em;
     color: var(--dark-charcoal);
     text-align: center;
@@ -203,7 +203,7 @@ button {
     border-radius: 10px;
     font-family: var(--font-main);
     font-size: 1em;
-    font-weight: bold;
+    font-weight: 700;
     cursor: pointer;
 }
 
@@ -222,7 +222,7 @@ footer address {
     color: var(--soft-white);
     text-align: center;
     padding: 40px;
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
     text-decoration: none;
 }
@@ -230,7 +230,7 @@ footer address {
 footer a {
     color: var(--champagne-gold);
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
 
 }
