@@ -184,6 +184,11 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: var(--midnight-blue);
+    color: var(--linen);
+}
+
 /*FOOTER */
 footer {
     background-color: var(--midnight-blue);
