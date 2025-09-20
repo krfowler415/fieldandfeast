@@ -43,7 +43,7 @@ header {
 header .logo {
     width: 150px;
     display: block;
-    margin: 20px auto 10px auto;
+    margin: 20px auto 20px auto;
 }
 
 header h1 {
@@ -101,6 +101,7 @@ header nav a:hover {
 .about h2 {
     color: var(--midnight-blue);
     font-size: 2em;
+    font-weight: light;
     padding-bottom: 10px;
     text-align: left;
 }
@@ -117,13 +118,21 @@ header nav a:hover {
     padding: 10px;
     border-radius: 10px;
     text-align: left;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10x rgba(0, 0, 0, 0.1);
+}
+
+.offering h2 {
+    color: var(--midnight-blue);
+    font-size: 2em;
+    font-weight: light;
+    padding-bottom: 10px;
+    text-align: left;
 }
 
 .offering h3 {
     color: var(--linen);
     font-size: 1.5em;
-    margin: 5px 0 10px 0;
+    margin: 10px 5px;
     text-align: left;
 }
 
@@ -131,6 +140,7 @@ header nav a:hover {
     color: var(--linen);
     font-size: 1em;
     text-align: left;
+    padding: 5px;
 }
 
 .offering ul {
@@ -149,8 +159,7 @@ header nav a:hover {
 .gallery-item {
     background: var(--soft-white);
     border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .gallery-item img {
@@ -192,7 +201,7 @@ button:hover {
 /*FOOTER */
 footer {
     background-color: var(--midnight-blue);
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 footer address {
