@@ -38,7 +38,7 @@ body {
     max-width: 90vw;
     height: 2px;
     background-color: var(--champagne-gold);
-    margin: 10px auto 10px auto;
+    margin: 10px auto;
 }
 
 /* SECTION */
@@ -56,25 +56,23 @@ section {
 #header .logo {
     width: 150px;
     display: block;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 10px;
 }
 
 #header h1 {
     font-size: 3.3em;
     font-weight: 700;
     padding-bottom: 10px;
-    color: var(--soft-white);
 }
 
 #header p {
     font-size: 1em;
     font-style: italic;
     padding-bottom: 20px;
-    color: var(--soft-white);
 }
 
 /*NAVIGATION BAR */
-#nav {
+nav {
     background-color: var(--champagne-gold);
     width: 100%;
 }
@@ -87,7 +85,7 @@ section {
     margin: 0 auto;
 }
 
-#nav a {
+nav a {
     font-family: var(--font-main);
     color: var(--midnight-blue);
     text-decoration: none;
@@ -95,40 +93,36 @@ section {
     font-weight: 700;
 }
 
-#nav a:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
 /* ABOUT SECTION  */
 #about {
-    padding: 10px 10px;
+    padding: 10px;
     margin: 0 auto;
     width: 80vw;
 }
 
 #about h2 {
-    font-family: var(--font-main);
     color: var(--midnight-blue);
     font-size: 2em;
     font-weight: 400;
-    text-align: left;
     margin: 20px 0 0 0;
 }
 
 /* OFFERINGS SECTION */
 #offerings {
-    padding: 10px 10px;
-    margin: 0 auto;
+    padding: 0 0 20px 0;
     width: 80vw;
+    margin: 0 auto;
 }
 
 #offerings h2 {
-    font-family: var(--font-main);
     color: var(--midnight-blue);
     font-size: 2em;
     font-weight: 400;
     padding-bottom: 10px;
-    text-align: left;
 }
 
 .offerings-container {
@@ -148,14 +142,13 @@ section {
     color: var(--linen);
     font-size: 1.5em;
     font-weight: 700;
-    padding: 15px 15px 0 15px;
+    padding: 15px 15px 0;
 }
 
 .offering p {
     color: var(--linen);
     font-size: 1em;
-    padding: 0 15px 15px 15px;
-    text-align: left;
+    padding: 1em;
 }
 
 .offering ul {
@@ -163,12 +156,11 @@ section {
     font-size: 1em;
     padding-left: 1.5em;
     text-indent: 1em;
-    text-align: left;
 }
 
 /* GALLERY SECTION */
 #gallery {
-    padding: 10px auto 0 auto;
+    padding: 10px 0 0;
     margin: 0 auto;
     width: 80vw;
 }
@@ -178,7 +170,6 @@ section {
     font-size: 2em;
     font-weight: 400;
     padding-bottom: 5px;
-    text-align: left;
 }
 
 #gallery p {
@@ -208,7 +199,7 @@ section {
 }
 
 .gallery-item p {
-    margin: 10px auto 10px auto;
+    margin: 10px auto;
     font-size: 1em;
     line-height: 1.6;
     max-width: 85%;
@@ -222,7 +213,7 @@ button {
     display: block;
     align-items: center;
     width: 100%;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 0;
     padding: 10px 20px;
     background-color: var(--olive-green);
     color: var(--linen);
@@ -236,7 +227,6 @@ button {
 
 button:hover {
     background-color: var(--midnight-blue);
-    color: var(--linen);
 }
 
 /*FOOTER */
@@ -252,20 +242,17 @@ footer address {
     padding: 40px;
     font-weight: 700;
     font-style: normal;
-    text-decoration: none;
 }
 
 footer a {
     color: var(--champagne-gold);
     text-decoration: none;
     font-weight: 700;
-    text-align: center;
-
 }
 
-footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
-  text-decoration: underline;
-  color: var(--champagne-gold);
+footer a:hover {
+    text-decoration: underline;
+    color: var(--champagne-gold);
 }
 
 .social-media {
@@ -273,21 +260,10 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
     text-align: center;
 }
 
-.social-media a[href*="https://www.instagram.com"]:hover {
-  text-decoration: underline;
-  color: var(--champagne-gold);
-}
-
-.social-media a[href*="https://www.facebook.com"]:hover {
-  text-decoration: underline;
-  color: var(--champagne-gold);
-}
-
 /* MEDIA QUERY MEDIUM */
 @media (min-width: 600px) {
     #about, #offerings, #gallery {
         width: 90vw;
-        margin: 0 auto;
     }
 
     .offerings-container {
@@ -304,7 +280,6 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
 
     .divider {
         width: 95%;
-        max-width: 90vw;
     }
 }
 
@@ -315,7 +290,7 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
     }
 
     .offerings-container {
-        grid-template-columns: repeat(2, 2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .offerings-container .offering:last-child {
@@ -328,7 +303,6 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
 
     .divider {
         width: 85%;
-        max-width: 85vw;
     }
 }
 
@@ -337,7 +311,6 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
     #about, #offerings, #gallery {
         width: 80vw;
         max-width: 1200px;
-        margin: 0 auto;
     }
 
     .gallery-container {
