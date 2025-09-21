@@ -301,7 +301,8 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
     }
 
     .divider {
-        max-width: 95%;
+        width: 95%;
+        max-width: 1200px;
     }
 }
 
@@ -324,7 +325,8 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
     }
 
     .divider {
-        max-width: 85%;
+        width: 85%;
+        max-width: 1200px;
     }
 }
 
@@ -341,7 +343,8 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
     }
 
     .divider {
-        max-width: 80%;
+        width: 80%;
+        max-width: 1200px;
     }
 }
 
