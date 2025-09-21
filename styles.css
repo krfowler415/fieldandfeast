@@ -38,12 +38,12 @@ body {
     width: 100%;
     height: 2px;
     background-color: var(--champagne-gold);
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 /* SECTION */
 section {
-    padding: 20px 10px;
+    padding: 10px;
 }
 
 /* HEADER */
@@ -56,7 +56,7 @@ header {
 header .logo {
     width: 150px;
     display: block;
-    margin: 40px auto 20px auto;
+    margin: 0 auto 20px auto;
 }
 
 header h1 {
@@ -81,15 +81,15 @@ header nav {
 
 header nav .nav-container {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 15px 0;
+    justify-content: space-around;
+    padding: 5px 15px 5px 15px;
 }
 
 header nav a {
+    font-family: var(--font-main);
     color: var(--midnight-blue);
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: 700;
 }
 
@@ -98,12 +98,30 @@ header nav a:hover {
 }
 
 /* ABOUT SECTION  */
-.about {
+#about {
     padding: 10px 10px;
     margin: 0 auto;
+    width: 80% auto;
 }
 
-.about h2 {
+#about h2 {
+    font-family: var(--font-main);
+    color: var(--midnight-blue);
+    font-size: 2em;
+    font-weight: 400;
+    text-align: left;
+    margin: 20px 0 0 0;
+}
+
+/* OFFERINGS SECTION */
+#offerings {
+    padding: 10px 10px;
+    margin: 0 auto;
+    width: 80% auto;
+}
+
+#offerings h2 {
+    font-family: var(--font-main);
     color: var(--midnight-blue);
     font-size: 2em;
     font-weight: 400;
@@ -111,7 +129,6 @@ header nav a:hover {
     text-align: left;
 }
 
-/* OFFERINGS SECTION */
 .offerings-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -120,71 +137,79 @@ header nav a:hover {
 
 .offering {
     background: var(--olive-green);
-    padding: 10px;
     border-radius: 10px;
     text-align: left;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.offering h2 {
-    color: var(--midnight-blue);
-    font-size: 2em;
-    font-weight: 400;
-    padding-bottom: 10px;
-    text-align: left;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
 }
 
 .offering h3 {
     color: var(--linen);
     font-size: 1.5em;
-    margin: 10px 5px;
-    text-align: left;
+    font-weight: 700;
+    padding: 15px 15px 0 15px;
 }
 
 .offering p {
     color: var(--linen);
     font-size: 1em;
+    padding: 0 15px 15px 15px;
     text-align: left;
-    padding: 5px;
 }
 
 .offering ul {
     color: var(--linen);
     font-size: 1em;
+    padding-left: 1.5em;
+    text-indent: 1em;
     text-align: left;
-    padding-left: 10px;
 }
 
 /* GALLERY SECTION */
+#gallery {
+    padding: 10px 10px;
+    margin: 0 auto;
+    width: 80% auto;
+}
+
+#gallery h2 {
+    color: var(--midnight-blue);
+    font-size: 2em;
+    font-weight: 400;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+#gallery p {
+  color: var(--dark-charcoal);
+  font-size: 1em;
+  padding-bottom: 10px;
+  width: 90%;
+}
+
 .gallery-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
 }
 
-.gallery-container h2 {
-    color: var(--midnight-blue);
-    font-size: 2em;
-    font-weight: 400;
-    padding-bottom: 10px;
-    text-align: left;
-}
-
 .gallery-item {
     background: var(--soft-white);
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
 }
 
 .gallery-item img {
     width: 100%;
     height: auto;
     display:block;
+    border-radius: 10px 10px 0 0;
 }
 
 .gallery-item p {
     margin: 10px auto 10px auto;
     font-size: 1em;
+    line-height: 1.6;
+    max-width: 85%;
     color: var(--dark-charcoal);
     text-align: center;
     font-style: italic;
@@ -216,6 +241,7 @@ button:hover {
 footer {
     background-color: var(--midnight-blue);
     margin-top: 40px;
+    width: 100%;
 }
 
 footer address {
@@ -235,9 +261,24 @@ footer a {
 
 }
 
+footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
+  text-decoration: underline;
+  color: var(--champagne-gold);
+}
+
 .social-media {
     padding-bottom: 20px;
     text-align: center;
+}
+
+.social-media a[href*="https://www.instagram.com"]:hover {
+  text-decoration: underline;
+  color: var(--champagne-gold);
+}
+
+.social-media a[href*="https://www.facebook.com"]:hover {
+  text-decoration: underline;
+  color: var(--champagne-gold);
 }
 
 /* MEDIA QUERY MEDIUM */
