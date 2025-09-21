@@ -74,18 +74,18 @@ header p {
 }
 
 /*NAVIGATION BAR */
-header nav {
+nav {
     background-color: var(--champagne-gold);
     width: 100%;
 }
 
-header nav .nav-container {
+nav .nav-container {
     display: flex;
     justify-content: space-around;
     padding: 5px 15px 5px 15px;
 }
 
-header nav a {
+nav a {
     font-family: var(--font-main);
     color: var(--midnight-blue);
     text-decoration: none;
@@ -93,7 +93,7 @@ header nav a {
     font-weight: 700;
 }
 
-header nav a:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
