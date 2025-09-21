@@ -79,7 +79,7 @@ section {
     width: 100%;
 }
 
-#nav .nav-container {
+.nav-container {
     display: flex;
     justify-content: space-around;
     padding: 0;
