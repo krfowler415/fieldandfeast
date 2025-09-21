@@ -35,9 +35,10 @@ body {
 /* DIVIDER */
 .divider {
     width: 100%;
+    max-width: 1200px;
     height: 2px;
     background-color: var(--champagne-gold);
-    margin: 10px auto;
+    margin: 10px auto 10px auto;
 }
 
 /* SECTION */
@@ -165,7 +166,7 @@ header nav a:hover {
 
 /* GALLERY SECTION */
 #gallery {
-    padding: 10px 10px;
+    padding: 10px auto 0 auto;
     margin: 0 auto;
     width: 80% auto;
 }
@@ -219,7 +220,7 @@ button {
     display: block;
     align-items: center;
     width: 100%;
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
     padding: 10px 20px;
     background-color: var(--olive-green);
     color: var(--linen);
@@ -239,7 +240,7 @@ button:hover {
 /*FOOTER */
 footer {
     background-color: var(--midnight-blue);
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -298,6 +299,10 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
     .gallery-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .divider {
+        max-width: 95%;
+    }
 }
 
 /* MEDIA QUERY LARGE */
@@ -317,6 +322,10 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
     .gallery-container {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .divider {
+        max-width: 85%;
+    }
 }
 
 /* MEDIA QUERY X-LARGE */
@@ -329,6 +338,10 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
 
     .gallery-container {
         grid-template-columns: repeat(5, 1fr);
+    }
+
+    .divider {
+        max-width: 80%;
     }
 }
 
