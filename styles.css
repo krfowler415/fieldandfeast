@@ -29,7 +29,6 @@ body {
     color: var(--dark-charcoal);
     line-height: 1.6;
     font-size: 16px;
-    max-width: 450px;
     margin: 0 auto;
 }
 
@@ -56,7 +55,7 @@ header {
 header .logo {
     width: 150px;
     display: block;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 10px auto;
 }
 
 header h1 {
@@ -240,7 +239,7 @@ button:hover {
 /*FOOTER */
 footer {
     background-color: var(--midnight-blue);
-    margin-top: 40px;
+    margin-top: 10px;
     width: 100%;
 }
 
@@ -283,8 +282,9 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
 
 /* MEDIA QUERY MEDIUM */
 @media (min-width: 600px) {
-    body {
-        max-width: 90%;
+    #about, #offerings, #gallery {
+        width: 95%;
+        margin: 0 auto;
     }
 
     .offerings-container {
@@ -302,7 +302,7 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
 
 /* MEDIA QUERY LARGE */
 @media (min-width: 900px) {
-    body {
+    #about, #offerings, #gallery {
         max-width: 85%;
     }
 
@@ -321,8 +321,10 @@ footer address a[href="mailto:hello@fieldandfeast.com"]:hover {
 
 /* MEDIA QUERY X-LARGE */
 @media (min-width: 1200px) {
-    body {
+    #about, #offerings, #gallery {
+        width: 80%;
         max-width: 1200px;
+        margin: 0 auto;
     }
 
     .gallery-container {
