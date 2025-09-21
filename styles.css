@@ -47,45 +47,45 @@ section {
 }
 
 /* HEADER */
-header {
+#header {
     background-color: var(--midnight-blue);
     color: var(--soft-white);
     text-align: center;
 }
 
-header .logo {
+#header .logo {
     width: 150px;
     display: block;
     margin: 0 auto 10px auto;
 }
 
-header h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
+#header h1 {
+    font-size: 3.3em;
     font-weight: 700;
+    padding-bottom: 10px;
     color: var(--soft-white);
 }
 
-header p {
+#header p {
     font-size: 1em;
     font-style: italic;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     color: var(--soft-white);
 }
 
 /*NAVIGATION BAR */
-nav {
+#nav {
     background-color: var(--champagne-gold);
     width: 100%;
 }
 
-nav .nav-container {
+#nav .nav-container {
     display: flex;
     justify-content: space-around;
-    padding: 5px 15px 5px 15px;
+    padding: 0;
 }
 
-nav a {
+#nav a {
     font-family: var(--font-main);
     color: var(--midnight-blue);
     text-decoration: none;
@@ -93,7 +93,7 @@ nav a {
     font-weight: 700;
 }
 
-nav a:hover {
+#nav a:hover {
     text-decoration: underline;
 }
 
